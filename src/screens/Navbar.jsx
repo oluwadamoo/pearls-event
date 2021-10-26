@@ -51,6 +51,7 @@ const NavLinks = styled.ul`
 
 const NavLink = styled.li`
   margin-right: 25px;
+  cursor: pointer;
 `;
 
 export default Navbar;

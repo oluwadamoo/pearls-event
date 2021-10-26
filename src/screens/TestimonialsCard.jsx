@@ -81,7 +81,9 @@ const Footer = styled.div`
   padding: 0 20px;
   justify-self: flex-end;
   align-self: flex-end;
-  background-color: red;
+  background-color: #c21c38;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
 `;
 const FooterText = styled.p`
   text-align: center;

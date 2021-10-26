@@ -40,12 +40,12 @@ function Carousel() {
 }
 
 const Container = styled.div`
-  /* margin-left: 30px; */
   flex: 1;
+  border-radius: 15px;
 `;
 
 const Wrapper = styled.div`
-  border-radius: 10px !important;
+  border-radius: 10px;
 `;
 const ImageWrapper = styled.div`
   width: 500px;

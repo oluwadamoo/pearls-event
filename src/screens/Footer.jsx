@@ -62,7 +62,7 @@ const IconsContainer = styled.div`
 const IconWrapper = styled.div`
   width: 30px;
   height: 30px;
-  background-color: red;
+  background-color: #c21c38;
   display: flex;
   align-items: center;
   justify-content: center;

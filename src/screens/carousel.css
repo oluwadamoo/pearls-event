@@ -3,6 +3,7 @@
 .image-gallery {
   width: 500px;
   height: 300px;
+  border-radius: 15px;
 }
 
 .image-gallery-slide img {

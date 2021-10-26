@@ -1,0 +1,20 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+.image-gallery {
+  width: 500px;
+  height: 300px;
+}
+
+.image-gallery-slide img {
+  width: 100%;
+  height: auto;
+  max-height: 80vh;
+  object-fit: cover;
+  overflow: hidden;
+  object-position: center center;
+  border-radius: 15px;
+}
+
+.fullscreen .image-gallery-slide img {
+  max-height: 100vh;
+}

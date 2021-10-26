@@ -52,5 +52,4 @@ const ImageWrapper = styled.div`
   height: 300px;
   border-radius: 15px;
 `;
-const Image = styled.img``;
 export default Carousel;

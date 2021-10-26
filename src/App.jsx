@@ -1,7 +1,7 @@
 import React from "react";
-import Banner from "./screens/Banner";
+// import Banner from "./screens/Banner";
 import Home from "./screens/Home";
-import Navbar from "./screens/Navbar";
+// import Navbar from "./screens/Navbar";
 
 function App() {
   return (

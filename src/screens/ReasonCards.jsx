@@ -2,7 +2,6 @@ import React from "react";
 
 import styled from "styled-components";
 import Carousel from "./Carousel";
-import ReasonCard from "./ReasonCard";
 function ReasonCards() {
   return (
     <Container>

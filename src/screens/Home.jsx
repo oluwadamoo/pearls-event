@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Banner from "./Banner";
-import Card from "./Card";
+
 import Cards from "./Cards";
 import Footer from "./Footer";
 import ReasonCards from "./ReasonCards";
@@ -55,6 +55,7 @@ const Container = styled.div`
   min-height: 100vh;
   min-width: 100%;
   color: #9b9999;
+  overflow-x: hidden;
 `;
 const Top = styled.div`
   display: flex;

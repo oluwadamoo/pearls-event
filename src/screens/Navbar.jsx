@@ -6,7 +6,7 @@ function Navbar() {
     <Container>
       <Wrapper>
         <Left>
-          <Logo src="/images/logo-1.png" />
+          <Logo src="/images/logo.png" />
         </Left>
         <Right>
           <NavLinks>

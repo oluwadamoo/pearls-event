@@ -19,8 +19,7 @@ const Container = styled.div`
   height: 45vh;
 `;
 const Wrapper = styled.div`
-  background-color: #69036932;
-  /* background-color: #ff00802b; */
+  background-color: #7e4b7e31;
   height: 45vh;
 `;
 

@@ -12,28 +12,43 @@ function ReasonCards() {
           </TextContainer>
           <Carousel />
         </CardWrapper>
-        <CardWrapper>
+
+        <CardWrapperR>
           <Carousel />
           <TextContainer>
             <Text> We ensure you are Picture-Perfect</Text>
           </TextContainer>
-        </CardWrapper>
-        <CardWrapper>
+        </CardWrapperR>
+        <CardWrapperLeft>
+          <TextContainer>
+            <Text> We ensure you are Picture-Perfect</Text>
+          </TextContainer>
+          <Carousel />
+        </CardWrapperLeft>
+
+        <CardWrapperR>
           <TextContainer>
             <Text>
-              {" "}
               With us, you can only sit back, relax and enjoy every bit of your
               day
             </Text>
           </TextContainer>
           <Carousel />
-        </CardWrapper>
-        <CardWrapper>
+        </CardWrapperR>
+
+        <CardWrapperR>
           <Carousel />
           <TextContainer>
             <Text> Guest experience is a priority, always.</Text>
           </TextContainer>
-        </CardWrapper>
+        </CardWrapperR>
+
+        <CardWrapperLeft>
+          <TextContainer>
+            <Text> Guest experience is a priority, always.</Text>
+          </TextContainer>
+          <Carousel />
+        </CardWrapperLeft>
 
         <ButtonContainer>
           <PackageButton>See our wedding packages</PackageButton>
@@ -53,6 +68,28 @@ const CardWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 15px;
+
+  @media only screen and (max-width: 380px) {
+    margin: 0;
+  }
+`;
+const CardWrapperR = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+
+  @media only screen and (max-width: 380px) {
+    display: none;
+  }
+`;
+const CardWrapperLeft = styled.div`
+  display: none;
+
+  @media only screen and (max-width: 380px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+  }
 `;
 const TextContainer = styled.div`
   flex: 1;
@@ -60,12 +97,22 @@ const TextContainer = styled.div`
 const Text = styled.h2`
   width: 70%;
   font-size: 30px;
+
+  @media only screen and (max-width: 380px) {
+    width: 100%;
+    font-size: 25px;
+  }
 `;
 
 const ButtonContainer = styled.div`
   display: flex;
   justify-content: center;
   margin: 10px 0px;
+
+  @media only screen and (max-width: 380px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 const PackageButton = styled.button`
   width: 300px;
@@ -82,6 +129,9 @@ const PackageButton = styled.button`
   font-size: 20px;
   transition: 1s ease;
 
+  @media only screen and (max-width: 380px) {
+    margin-bottom: 10px;
+  }
   &:active,
   &:hover {
     background-color: #ee3453;

@@ -19,3 +19,9 @@
 .fullscreen .image-gallery-slide img {
   max-height: 100vh;
 }
+
+@media only screen and (max-width: 380px) {
+  .image-gallery {
+    width: 450px;
+  }
+}

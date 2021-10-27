@@ -25,9 +25,15 @@ const Container = styled.div`
   height: 430px;
   padding: 25px;
   margin-right: 20px;
+  margin-bottom: 20px;
   color: #9b9999;
   box-shadow: 0px 0px 15px -8px #a09e9eab;
   transition: all 1s ease;
+
+  @media only screen and (max-width: 380px) {
+    width: 300px;
+    height: 350px;
+  }
   &:hover {
     transform: scale(1.1);
   }

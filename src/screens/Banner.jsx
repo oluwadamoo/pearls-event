@@ -21,12 +21,19 @@ const Container = styled.div`
   @media only screen and (max-width: 380px) {
     height: 70vh;
   }
+  @media only screen and (max-width: 414px) {
+    height: 70vh;
+  }
 `;
 const Wrapper = styled.div`
   background-color: #d4426145;
   height: 50vh;
 
   @media only screen and (max-width: 380px) {
+    height: 70vh;
+    background-color: #d4426145;
+  }
+  @media only screen and (max-width: 414px) {
     height: 70vh;
     background-color: #d4426145;
   }

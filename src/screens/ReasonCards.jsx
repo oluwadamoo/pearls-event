@@ -72,6 +72,9 @@ const CardWrapper = styled.div`
   @media only screen and (max-width: 380px) {
     margin: 0;
   }
+  @media only screen and (max-width: 414px) {
+    margin: 0;
+  }
 `;
 const CardWrapperR = styled.div`
   display: flex;
@@ -81,11 +84,19 @@ const CardWrapperR = styled.div`
   @media only screen and (max-width: 380px) {
     display: none;
   }
+  @media only screen and (max-width: 414px) {
+    display: none;
+  }
 `;
 const CardWrapperLeft = styled.div`
   display: none;
 
   @media only screen and (max-width: 380px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+  }
+  @media only screen and (max-width: 414px) {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 15px;
@@ -102,6 +113,10 @@ const Text = styled.h2`
     width: 100%;
     font-size: 25px;
   }
+  @media only screen and (max-width: 414px) {
+    width: 100%;
+    font-size: 25px;
+  }
 `;
 
 const ButtonContainer = styled.div`
@@ -110,6 +125,10 @@ const ButtonContainer = styled.div`
   margin: 10px 0px;
 
   @media only screen and (max-width: 380px) {
+    flex-direction: column;
+    align-items: center;
+  }
+  @media only screen and (max-width: 414px) {
     flex-direction: column;
     align-items: center;
   }
@@ -130,6 +149,9 @@ const PackageButton = styled.button`
   transition: 1s ease;
 
   @media only screen and (max-width: 380px) {
+    margin-bottom: 10px;
+  }
+  @media only screen and (max-width: 414px) {
     margin-bottom: 10px;
   }
   &:active,

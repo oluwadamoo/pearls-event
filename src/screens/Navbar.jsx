@@ -55,11 +55,19 @@ const Left = styled.div`
   @media only screen and (max-width: 380px) {
     margin-left: 5px;
   }
+  @media only screen and (max-width: 414px) {
+    margin-left: 5px;
+  }
 `;
 const Logo = styled.img`
   height: 100px;
   aspect-ratio: 2/1;
   @media only screen and (max-width: 380px) {
+    margin-top: -13px;
+    height: 60px;
+    width: 180px;
+  }
+  @media only screen and (max-width: 414px) {
     margin-top: -13px;
     height: 60px;
     width: 180px;
@@ -81,6 +89,16 @@ const MenuSection = styled.div`
     transition: all 10s ease;
     /* padding-right: 12px; */
   }
+  @media only screen and (max-width: 414px) {
+    display: flex;
+    align-items: center;
+    width: 80px;
+    justify-content: space-between;
+    font-size: 10;
+    cursor: pointer;
+    transition: all 10s ease;
+    /* padding-right: 12px; */
+  }
 `;
 const NavLinks = styled.ul`
   display: flex;
@@ -89,6 +107,9 @@ const NavLinks = styled.ul`
   justify-content: space-around;
 
   @media only screen and (max-width: 380px) {
+    display: none;
+  }
+  @media only screen and (max-width: 414px) {
     display: none;
   }
 `;

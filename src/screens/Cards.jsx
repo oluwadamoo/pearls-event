@@ -21,5 +21,9 @@ const Container = styled.div`
     width: 350px;
     justify-self: center;
   }
+  @media only screen and (max-width: 414px) {
+    width: 384px;
+    justify-self: center;
+  }
 `;
 export default Cards;

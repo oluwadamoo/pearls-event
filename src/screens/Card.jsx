@@ -32,10 +32,16 @@ const Container = styled.div`
   @media only screen and (max-width: 380px) {
     width: 350px;
     height: 400px;
-
     display: flex;
     flex-direction: column;
-
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  @media only screen and (max-width: 414px) {
+    width: 350px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
     margin-right: 0;
     margin-bottom: 20px;
   }

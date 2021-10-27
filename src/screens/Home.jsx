@@ -84,6 +84,10 @@ const Side = styled.div`
     transition: 1s all ease-in;
     display: block;
   }
+  @media only screen and (max-width: 414px) {
+    transition: 1s all ease-in;
+    display: block;
+  }
 `;
 const Wrapper = styled.div``;
 
@@ -95,6 +99,11 @@ const Title = styled.h2`
   align-self: center;
 
   @media only screen and (max-width: 380px) {
+    font-size: 34px;
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  @media only screen and (max-width: 414px) {
     font-size: 34px;
     width: 100%;
     margin-bottom: 60px;
@@ -113,6 +122,10 @@ const TitleContainer = styled.div`
     margin-top: -45vh;
     margin-bottom: 100px;
   }
+  @media only screen and (max-width: 414px) {
+    margin-top: -45vh;
+    margin-bottom: 100px;
+  }
 `;
 
 const CardContainer = styled.div`
@@ -120,10 +133,11 @@ const CardContainer = styled.div`
 
   @media only screen and (max-width: 380px) {
     display: flex;
-    /* width: 100vw; */
-    /* padding-right: 10px; */
     justify-content: center;
-    /* align-items: center; */
+  }
+  @media only screen and (max-width: 414px) {
+    display: flex;
+    justify-content: center;
   }
 `;
 
@@ -150,6 +164,10 @@ const Button = styled.button`
   border-radius: 7px;
 
   transition: all 1s ease;
+
+  @media only screen and (max-width: 380px) {
+    width: 330px;
+  }
   &:active,
   &:hover {
     background-color: #ee3453;
@@ -179,6 +197,9 @@ const Reason = styled.div`
   @media only screen and (max-width: 380px) {
     padding: 10px;
   }
+  @media only screen and (max-width: 414px) {
+    padding: 10px;
+  }
 `;
 
 const ReasonHeader = styled.h4`
@@ -186,6 +207,9 @@ const ReasonHeader = styled.h4`
   font-weight: 300;
 
   @media only screen and (max-width: 380px) {
+    font-size: 24px;
+  }
+  @media only screen and (max-width: 414px) {
     font-size: 24px;
   }
 `;

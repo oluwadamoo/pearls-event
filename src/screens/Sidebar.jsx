@@ -1,5 +1,5 @@
-import { Cancel, Twitter } from "@material-ui/icons";
-import React, { useState } from "react";
+import { Cancel } from "@material-ui/icons";
+import React from "react";
 import styled from "styled-components";
 
 function Sidebar({ openMenu, setOpenMenu }) {
@@ -42,7 +42,7 @@ const Container = styled.div`
   right: 0;
   color: white;
 
-  display: ${(props) => (props.openMenu == true ? "block" : "none")};
+  display: ${(props) => (props.openMenu === true ? "block" : "none")};
 `;
 const Wrapper = styled.div`
   padding-top: 50px;

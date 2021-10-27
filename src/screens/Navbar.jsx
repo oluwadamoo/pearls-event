@@ -28,7 +28,9 @@ function Navbar({ setOpenMenu, openMenu }) {
             <NavLink>Wedding Packages</NavLink>
             <NavLink>Lead Planner</NavLink>
             <NavLink>Blog</NavLink>
-            <NavLink>Gallery</NavLink>
+            <NavLink>
+              <a href="#reason">Gallery</a>
+            </NavLink>
           </NavLinks>
         </Right>
       </Wrapper>

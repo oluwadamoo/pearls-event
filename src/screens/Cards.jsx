@@ -16,5 +16,10 @@ const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
+  @media only screen and (max-width: 380px) {
+    width: 350px;
+    justify-self: center;
+  }
 `;
 export default Cards;

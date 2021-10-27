@@ -62,7 +62,7 @@ function Home() {
 const Container = styled.div`
   min-height: 100vh;
   min-width: 100%;
-  color: #9b9999;
+  background-color: #f3f3f3;
   overflow-x: hidden;
   scroll-behavior: smooth;
   scrollbar-width: none;
@@ -95,8 +95,9 @@ const Title = styled.h2`
   align-self: center;
 
   @media only screen and (max-width: 380px) {
-    font-size: 35px;
+    font-size: 34px;
     width: 100%;
+    margin-bottom: 60px;
   }
 `;
 const TitleContainer = styled.div`
@@ -105,11 +106,12 @@ const TitleContainer = styled.div`
   padding: 0 50px;
   color: white;
   align-self: center;
-  margin-top: -30vh;
+  margin-top: -45vh;
   margin-bottom: 10vh;
 
   @media only screen and (max-width: 380px) {
-    margin-top: -50vh;
+    margin-top: -45vh;
+    margin-bottom: 100px;
   }
 `;
 
@@ -117,7 +119,11 @@ const CardContainer = styled.div`
   margin-top: -100px;
 
   @media only screen and (max-width: 380px) {
-    margin-top: -35px;
+    display: flex;
+    /* width: 100vw; */
+    /* padding-right: 10px; */
+    justify-content: center;
+    /* align-items: center; */
   }
 `;
 
@@ -168,6 +174,7 @@ const Reason = styled.div`
   padding: 15px;
   padding-left: 20%;
   padding-right: 20%;
+  background-color: #fff;
 
   @media only screen and (max-width: 380px) {
     padding: 10px;
